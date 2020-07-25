@@ -9,6 +9,8 @@ public class Login {
 	@Test
 public void loginmethod() throws InterruptedException
 {
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Grid\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	
 	driver.manage().window().maximize();
